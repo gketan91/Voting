@@ -3,7 +3,7 @@ $file = "votes.json";
 
 if (!file_exists($file)) {
     file_put_contents($file, json_encode([
-        "ketan" => 0,
+        "ketan" => 100,
         "sunny" => 0
     ]));
 }
