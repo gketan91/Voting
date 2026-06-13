@@ -145,12 +145,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <h2>Results</h2>
 
         <div class="label">
-            Ketan - <?php echo $data['ketan']; ?> votes
+            Ketan Gupta- <?php echo $data['ketan']; ?> votes
         </div>
         <div class="bar blue" style="width:<?php echo $ketanPercent; ?>%"></div>
 
         <div class="label">
-            Sunny - <?php echo $data['sunny']; ?> votes
+            Sunny Bhagat- <?php echo $data['sunny']; ?> votes
         </div>
         <div class="bar orange" style="width:<?php echo $sunnyPercent; ?>%"></div>
 
